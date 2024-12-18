@@ -1,0 +1,240 @@
+@media (max-width: 767px) {
+   
+    .center {
+        padding-left: calc(50% - 767px/2);
+        padding-right: calc(50% - 767px/2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .heading__index,
+    .heading__catalog,
+    .heading__cart {
+        width: 343px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .heading__cart {
+        margin-bottom: 92px;
+    }
+    .heading__logo {
+        padding-left: 16px;
+    }
+    .navbar,
+    .cart {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(8, 1fr);
+        justify-items: start;
+        width: 343px;
+        margin-top: 32px;
+        border: none;
+        gap: 50px;
+        &__text {
+            line-height: 15px;
+            font-size: 12px;
+        }
+        &__button {
+            width: 164px;
+        }
+        &__form {
+            padding-left: 28px;
+            margin-top: 32px;
+        }
+        &__item {
+            width: 343px;
+        }
+        &__item_none {
+            display: none;
+        }
+        &__total {
+            padding-right: 16px;
+        }
+        &__button2 {
+            margin-right: 16px;
+        }
+    }
+    .catalog__navbar {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(8, 1fr);
+        justify-items: start;
+        width: 343px;
+        margin-top: 32px;
+        border: none;
+        gap: 50px;
+        align-items: flex-start;
+        height: 124px;
+    }
+    
+    .catalog__select_filter {
+        top: -32px;
+    }
+
+    .heading__input {
+        display: none;
+    }
+    .catalog__link {
+        display: none;
+    }
+    .heading__logo {
+        width: 99px;
+    }
+    .header__section {
+        width: 343px;
+        margin-top: 29px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+    .menu__mobile {
+    display: flex;
+    gap: 32px;
+    padding-right: 16px;
+}
+    .header,
+    .header__catalog {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+
+    &__text {
+        font-size: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    &__link {
+        font-size: 14px;
+    }
+}
+
+.catalog__select {
+    display: flex;
+    position: absolute;
+    margin-bottom: auto;
+    margin-top: auto;
+    gap: 10px;
+}
+    .catalog__select_option {
+    width: 203px;
+    background-position: right 10px center;
+}
+    .catalog__select_filter {
+    width: 164px;
+    background-position: right 10px center;
+}
+    .header2 {
+    line-height: 29px;
+    font-size: 24px;
+    padding-top: 32px;
+    width: 343px;
+}
+
+    .for-box {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+    .for__item {
+    grid-column: 1 / -1;
+    width: 343px;
+    height: 375px;
+    font-size: 28px;
+    line-height: 34px;
+    &_big {
+    height: 244px;
+    }
+}
+    .product-box {
+    width: 343px;
+}
+    .item__width {
+    width: 343px;
+}
+    img {
+    max-width: 343px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 40px 48px 40px 48px;
+    height: 940px;
+    max-width: 286px;
+    left: 16px;
+    top: 580px;
+    &__content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+}
+
+.cart__button {
+    margin-top: 16px;
+}
+
+.catalog-box {
+    width:  343px;
+}
+
+.buttons {
+    display: flex;
+    gap: 14px;
+}
+.cart__button {
+    margin-top: 32px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: inherit;
+}
+
+.cart__name-box {
+    display: none;
+}
+
+
+.prefooter__link {
+content: Показать еще;
+}
+
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    background-size: cover;
+    height: 363px;
+    width: 374px;
+    &__menu {
+        padding-top: 33px;
+    }
+    &__contacts {
+        padding-top: 33px;
+    }
+}
+.footer__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 33px;
+    margin-bottom: 32px;
+}
+}
+
+@media (min-width: 767px) {
+    .menu__mobile {
+    display: none;
+    }
+}
